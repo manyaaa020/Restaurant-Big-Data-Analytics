@@ -1,0 +1,4 @@
+drwxr-xr-x   - root supergroup          0 2026-10-22 14:21 /tastetrends/raw/business
+-rw-r--r--   2 root supergroup  118863795 2026-10-22 14:21 /tastetrends/raw/business/yelp_academic_dataset_business.json
+drwxr-xr-x   - root supergroup          0 2026-10-22 14:26 /tastetrends/raw/review
+-rw-r--r--   2 root supergroup 5341868833 2026-10-22 14:26 /tastetrends/raw/review/yelp_academic_dataset_review.json

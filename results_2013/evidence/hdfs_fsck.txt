@@ -1,0 +1,42 @@
+FSCK started by root (auth:SIMPLE) from /172.21.0.3 for path /tastetrends/raw/review/yelp_academic_dataset_review.json at Thu Oct 22 13:42:59 UTC 2026
+/tastetrends/raw/review/yelp_academic_dataset_review.json 216292386 bytes, replicated: replication=2, 2 block(s):  OK
+0. BP-477740553-172.21.0.3-1792652347951:blk_1073741835_1011 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+1. BP-477740553-172.21.0.3-1792652347951:blk_1073741836_1012 len=82074658 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	2
+ Number of racks:		1
+ Total dirs:			0
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	216292386 B
+ Total files:	1
+ Total blocks (validated):	2 (avg. block size 108146193 B)
+ Minimally replicated blocks:	2 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	2
+ Average block replication:	2.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+FSCK ended at Thu Oct 22 13:42:59 UTC 2026 in 4 milliseconds
+
+
+The filesystem under path '/tastetrends/raw/review/yelp_academic_dataset_review.json' is HEALTHY

@@ -1,0 +1,9 @@
+theme_id,theme,n_reviews,share,top_terms,matched_words
+6,Food taste and quality,5896,0.2315,"flavor, bland, tasted, taste, dry, much, little, sweet, side, fresh, nice, try","flavor, bland, tasted, taste, dry, sweet, fresh"
+0,Declining quality over time,5482,0.2153,"bad, eat, times, always, location, last, never, service, going, ever, love, think","times, always, location, last, love, used"
+1,Slow service and long waits,4281,0.1681,"minutes, table, server, waitress, took, waited, wait, service, asked, waiter, seated, finally","minutes, table, server, waitress, took, waited, wait, waiter, seated, finally"
+2,"Overpriced, small portions",2801,0.11,"price, average, prices, quality, mediocre, overpriced, service, portions, expensive, worth, small, high","price, prices, quality, mediocre, overpriced, portions, expensive, worth, small, high"
+7,Rude staff and management,2316,0.0909,"manager, customer, rude, closed, business, owner, service, location, told, called, never, customers","manager, customer, rude, owner, told, called, customers, phone"
+3,"Bar, noise and atmosphere",2209,0.0867,"bar, music, bartender, loud, night, people, game, sports, service, nice, room, patio","bar, music, bartender, loud, night, game, sports, room"
+4,Nothing special,1445,0.0567,"nothing, special, buffet, indian, much, service, okay, bad, meh, home, try, average","nothing, special, buffet, okay, meh, home, average"
+5,Happy hour,1035,0.0406,"hour, happy, bar, service, menu, prices, half, wait, took, price, specials, never","hour, happy, half, specials"

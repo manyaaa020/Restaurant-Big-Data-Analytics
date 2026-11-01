@@ -1,0 +1,113 @@
+cuisine,theme,count,total,share
+American,Slow service and long waits,1056,4891,0.2159
+American,"Bar, noise and atmosphere",946,4891,0.1934
+American,Food taste and quality,807,4891,0.165
+American,Declining quality over time,725,4891,0.1482
+American,"Overpriced, small portions",507,4891,0.1037
+American,Rude staff and management,369,4891,0.0754
+American,Happy hour,278,4891,0.0568
+American,Nothing special,203,4891,0.0415
+Breakfast & Brunch,Slow service and long waits,435,1592,0.2732
+Breakfast & Brunch,Food taste and quality,339,1592,0.2129
+Breakfast & Brunch,Declining quality over time,313,1592,0.1966
+Breakfast & Brunch,"Overpriced, small portions",172,1592,0.108
+Breakfast & Brunch,Rude staff and management,145,1592,0.0911
+Breakfast & Brunch,Nothing special,89,1592,0.0559
+Breakfast & Brunch,"Bar, noise and atmosphere",70,1592,0.044
+Breakfast & Brunch,Happy hour,29,1592,0.0182
+Burgers,Declining quality over time,425,1531,0.2776
+Burgers,Food taste and quality,365,1531,0.2384
+Burgers,"Overpriced, small portions",189,1531,0.1234
+Burgers,Slow service and long waits,187,1531,0.1221
+Burgers,Rude staff and management,152,1531,0.0993
+Burgers,"Bar, noise and atmosphere",105,1531,0.0686
+Burgers,Nothing special,74,1531,0.0483
+Burgers,Happy hour,34,1531,0.0222
+Chinese,Food taste and quality,421,1397,0.3014
+Chinese,Declining quality over time,355,1397,0.2541
+Chinese,Nothing special,188,1397,0.1346
+Chinese,Slow service and long waits,142,1397,0.1016
+Chinese,"Overpriced, small portions",133,1397,0.0952
+Chinese,Rude staff and management,112,1397,0.0802
+Chinese,"Bar, noise and atmosphere",26,1397,0.0186
+Chinese,Happy hour,20,1397,0.0143
+Fast Food,Declining quality over time,224,463,0.4838
+Fast Food,Rude staff and management,104,463,0.2246
+Fast Food,Food taste and quality,62,463,0.1339
+Fast Food,Slow service and long waits,29,463,0.0626
+Fast Food,"Overpriced, small portions",23,463,0.0497
+Fast Food,Happy hour,9,463,0.0194
+Fast Food,Nothing special,9,463,0.0194
+Fast Food,"Bar, noise and atmosphere",3,463,0.0065
+Indian,Nothing special,127,288,0.441
+Indian,Slow service and long waits,45,288,0.1563
+Indian,Food taste and quality,41,288,0.1424
+Indian,Declining quality over time,27,288,0.0938
+Indian,Rude staff and management,22,288,0.0764
+Indian,"Overpriced, small portions",20,288,0.0694
+Indian,Happy hour,4,288,0.0139
+Indian,"Bar, noise and atmosphere",2,288,0.0069
+Italian,Food taste and quality,431,1642,0.2625
+Italian,Slow service and long waits,354,1642,0.2156
+Italian,Declining quality over time,288,1642,0.1754
+Italian,"Overpriced, small portions",206,1642,0.1255
+Italian,Rude staff and management,161,1642,0.0981
+Italian,Nothing special,79,1642,0.0481
+Italian,"Bar, noise and atmosphere",75,1642,0.0457
+Italian,Happy hour,48,1642,0.0292
+Japanese,Food taste and quality,227,1064,0.2133
+Japanese,Declining quality over time,183,1064,0.172
+Japanese,Slow service and long waits,163,1064,0.1532
+Japanese,"Overpriced, small portions",157,1064,0.1476
+Japanese,Happy hour,143,1064,0.1344
+Japanese,"Bar, noise and atmosphere",93,1064,0.0874
+Japanese,Rude staff and management,65,1064,0.0611
+Japanese,Nothing special,33,1064,0.031
+Mediterranean,Food taste and quality,181,524,0.3454
+Mediterranean,Declining quality over time,117,524,0.2233
+Mediterranean,Slow service and long waits,91,524,0.1737
+Mediterranean,"Overpriced, small portions",53,524,0.1011
+Mediterranean,Rude staff and management,29,524,0.0553
+Mediterranean,"Bar, noise and atmosphere",21,524,0.0401
+Mediterranean,Nothing special,21,524,0.0401
+Mediterranean,Happy hour,11,524,0.021
+Mexican,Food taste and quality,986,3663,0.2692
+Mexican,Declining quality over time,903,3663,0.2465
+Mexican,Slow service and long waits,509,3663,0.139
+Mexican,"Overpriced, small portions",427,3663,0.1166
+Mexican,"Bar, noise and atmosphere",257,3663,0.0702
+Mexican,Rude staff and management,245,3663,0.0669
+Mexican,Nothing special,192,3663,0.0524
+Mexican,Happy hour,144,3663,0.0393
+Other,Food taste and quality,1377,5699,0.2416
+Other,Declining quality over time,1330,5699,0.2334
+Other,Slow service and long waits,818,5699,0.1435
+Other,"Overpriced, small portions",637,5699,0.1118
+Other,Rude staff and management,596,5699,0.1046
+Other,"Bar, noise and atmosphere",442,5699,0.0776
+Other,Nothing special,297,5699,0.0521
+Other,Happy hour,202,5699,0.0354
+Pizza,Declining quality over time,366,1550,0.2361
+Pizza,Food taste and quality,289,1550,0.1865
+Pizza,Rude staff and management,245,1550,0.1581
+Pizza,Slow service and long waits,235,1550,0.1516
+Pizza,"Overpriced, small portions",157,1550,0.1013
+Pizza,"Bar, noise and atmosphere",105,1550,0.0677
+Pizza,Nothing special,78,1550,0.0503
+Pizza,Happy hour,75,1550,0.0484
+Seafood,Food taste and quality,145,580,0.25
+Seafood,Declining quality over time,117,580,0.2017
+Seafood,Slow service and long waits,110,580,0.1897
+Seafood,"Overpriced, small portions",62,580,0.1069
+Seafood,"Bar, noise and atmosphere",58,580,0.1
+Seafood,Rude staff and management,30,580,0.0517
+Seafood,Nothing special,30,580,0.0517
+Seafood,Happy hour,28,580,0.0483
+Thai,Food taste and quality,225,581,0.3873
+Thai,Declining quality over time,109,581,0.1876
+Thai,Slow service and long waits,107,581,0.1842
+Thai,"Overpriced, small portions",58,581,0.0998
+Thai,Rude staff and management,41,581,0.0706
+Thai,Nothing special,25,581,0.043
+Thai,Happy hour,10,581,0.0172
+Thai,"Bar, noise and atmosphere",6,581,0.0103

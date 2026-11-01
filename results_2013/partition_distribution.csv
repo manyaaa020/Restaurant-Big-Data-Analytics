@@ -1,0 +1,5 @@
+partition,worker,rows
+0,spark-worker-1,58708
+1,spark-worker-2,58667
+2,spark-worker-1,58404
+3,spark-worker-2,54128

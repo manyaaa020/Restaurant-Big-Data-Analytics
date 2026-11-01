@@ -1,0 +1,169 @@
+cuisine,theme,count,total,share
+American,Declining quality over time (menu),26538,137327,0.1932
+American,Slow service and long waits (table),24801,137327,0.1806
+American,"Bar, noise and atmosphere",17543,137327,0.1277
+American,Food taste and quality,14661,137327,0.1068
+American,Slow service and long waits (minutes),12286,137327,0.0895
+American,"Overpriced, small portions",11495,137327,0.0837
+American,Rude staff and management (rude),10955,137327,0.0798
+American,"Mixed: closed, room, open",5516,137327,0.0402
+American,Worst-ever experiences,5389,137327,0.0392
+American,Declining quality over time (location),4022,137327,0.0293
+American,Rude staff and management (delivery),3516,137327,0.0256
+American,Wrong orders and takeout,605,137327,0.0044
+Breakfast & Brunch,Declining quality over time (menu),21749,97386,0.2233
+Breakfast & Brunch,Slow service and long waits (table),16194,97386,0.1663
+Breakfast & Brunch,Slow service and long waits (minutes),11887,97386,0.1221
+Breakfast & Brunch,Food taste and quality,11820,97386,0.1214
+Breakfast & Brunch,Rude staff and management (rude),9925,97386,0.1019
+Breakfast & Brunch,"Overpriced, small portions",8858,97386,0.091
+Breakfast & Brunch,Worst-ever experiences,3778,97386,0.0388
+Breakfast & Brunch,Declining quality over time (location),3656,97386,0.0375
+Breakfast & Brunch,"Bar, noise and atmosphere",3275,97386,0.0336
+Breakfast & Brunch,"Mixed: closed, room, open",2626,97386,0.027
+Breakfast & Brunch,Rude staff and management (delivery),2593,97386,0.0266
+Breakfast & Brunch,Wrong orders and takeout,1025,97386,0.0105
+Burgers,Declining quality over time (menu),18935,104501,0.1812
+Burgers,Slow service and long waits (table),12801,104501,0.1225
+Burgers,Rude staff and management (rude),11802,104501,0.1129
+Burgers,Slow service and long waits (minutes),11247,104501,0.1076
+Burgers,Wrong orders and takeout,11042,104501,0.1057
+Burgers,Food taste and quality,8713,104501,0.0834
+Burgers,"Overpriced, small portions",6318,104501,0.0605
+Burgers,Worst-ever experiences,6079,104501,0.0582
+Burgers,Declining quality over time (location),5989,104501,0.0573
+Burgers,"Bar, noise and atmosphere",5493,104501,0.0526
+Burgers,Rude staff and management (delivery),3146,104501,0.0301
+Burgers,"Mixed: closed, room, open",2936,104501,0.0281
+Chinese,Declining quality over time (menu),9841,41530,0.237
+Chinese,Food taste and quality,8790,41530,0.2117
+Chinese,Rude staff and management (delivery),3942,41530,0.0949
+Chinese,Rude staff and management (rude),3798,41530,0.0915
+Chinese,"Overpriced, small portions",3581,41530,0.0862
+Chinese,Slow service and long waits (table),3469,41530,0.0835
+Chinese,Worst-ever experiences,2947,41530,0.071
+Chinese,Slow service and long waits (minutes),2199,41530,0.0529
+Chinese,Declining quality over time (location),1007,41530,0.0242
+Chinese,"Mixed: closed, room, open",937,41530,0.0226
+Chinese,Wrong orders and takeout,603,41530,0.0145
+Chinese,"Bar, noise and atmosphere",416,41530,0.01
+Fast Food,Rude staff and management (rude),4059,22726,0.1786
+Fast Food,Declining quality over time (menu),4034,22726,0.1775
+Fast Food,Wrong orders and takeout,3355,22726,0.1476
+Fast Food,Declining quality over time (location),2695,22726,0.1186
+Fast Food,Rude staff and management (delivery),1680,22726,0.0739
+Fast Food,Slow service and long waits (minutes),1617,22726,0.0712
+Fast Food,Food taste and quality,1572,22726,0.0692
+Fast Food,Worst-ever experiences,1341,22726,0.059
+Fast Food,"Overpriced, small portions",1030,22726,0.0453
+Fast Food,"Mixed: closed, room, open",835,22726,0.0367
+Fast Food,Slow service and long waits (table),414,22726,0.0182
+Fast Food,"Bar, noise and atmosphere",94,22726,0.0041
+Indian,Declining quality over time (menu),3049,12933,0.2358
+Indian,Food taste and quality,2562,12933,0.1981
+Indian,"Overpriced, small portions",1464,12933,0.1132
+Indian,Rude staff and management (rude),1194,12933,0.0923
+Indian,Slow service and long waits (table),1185,12933,0.0916
+Indian,Worst-ever experiences,1085,12933,0.0839
+Indian,Rude staff and management (delivery),915,12933,0.0707
+Indian,Slow service and long waits (minutes),784,12933,0.0606
+Indian,"Mixed: closed, room, open",350,12933,0.0271
+Indian,Declining quality over time (location),188,12933,0.0145
+Indian,"Bar, noise and atmosphere",90,12933,0.007
+Indian,Wrong orders and takeout,67,12933,0.0052
+Italian,Declining quality over time (menu),18558,92452,0.2007
+Italian,Slow service and long waits (table),15012,92452,0.1624
+Italian,Food taste and quality,12726,92452,0.1376
+Italian,Rude staff and management (delivery),9644,92452,0.1043
+Italian,"Overpriced, small portions",8593,92452,0.0929
+Italian,Rude staff and management (rude),7630,92452,0.0825
+Italian,Slow service and long waits (minutes),7421,92452,0.0803
+Italian,Worst-ever experiences,4263,92452,0.0461
+Italian,"Bar, noise and atmosphere",3128,92452,0.0338
+Italian,Declining quality over time (location),2556,92452,0.0276
+Italian,"Mixed: closed, room, open",2410,92452,0.0261
+Italian,Wrong orders and takeout,511,92452,0.0055
+Japanese,Declining quality over time (menu),8798,38850,0.2265
+Japanese,Food taste and quality,6212,38850,0.1599
+Japanese,Slow service and long waits (table),6126,38850,0.1577
+Japanese,"Overpriced, small portions",4743,38850,0.1221
+Japanese,Slow service and long waits (minutes),3285,38850,0.0846
+Japanese,Rude staff and management (rude),3056,38850,0.0787
+Japanese,Worst-ever experiences,2128,38850,0.0548
+Japanese,Rude staff and management (delivery),1625,38850,0.0418
+Japanese,"Bar, noise and atmosphere",1217,38850,0.0313
+Japanese,"Mixed: closed, room, open",803,38850,0.0207
+Japanese,Declining quality over time (location),673,38850,0.0173
+Japanese,Wrong orders and takeout,184,38850,0.0047
+Mediterranean,Declining quality over time (menu),3492,16176,0.2159
+Mediterranean,Food taste and quality,2651,16176,0.1639
+Mediterranean,Slow service and long waits (table),2391,16176,0.1478
+Mediterranean,"Overpriced, small portions",1665,16176,0.1029
+Mediterranean,Rude staff and management (rude),1642,16176,0.1015
+Mediterranean,Slow service and long waits (minutes),1137,16176,0.0703
+Mediterranean,Rude staff and management (delivery),881,16176,0.0545
+Mediterranean,Worst-ever experiences,702,16176,0.0434
+Mediterranean,"Bar, noise and atmosphere",586,16176,0.0362
+Mediterranean,"Mixed: closed, room, open",511,16176,0.0316
+Mediterranean,Declining quality over time (location),402,16176,0.0249
+Mediterranean,Wrong orders and takeout,116,16176,0.0072
+Mexican,Declining quality over time (menu),19204,93280,0.2059
+Mexican,Food taste and quality,14042,93280,0.1505
+Mexican,Slow service and long waits (table),11473,93280,0.123
+Mexican,Rude staff and management (rude),9176,93280,0.0984
+Mexican,"Overpriced, small portions",8497,93280,0.0911
+Mexican,Slow service and long waits (minutes),7137,93280,0.0765
+Mexican,Worst-ever experiences,5248,93280,0.0563
+Mexican,Declining quality over time (location),5203,93280,0.0558
+Mexican,"Bar, noise and atmosphere",3880,93280,0.0416
+Mexican,Wrong orders and takeout,3638,93280,0.039
+Mexican,Rude staff and management (delivery),3311,93280,0.0355
+Mexican,"Mixed: closed, room, open",2471,93280,0.0265
+Other,Declining quality over time (menu),32388,140213,0.231
+Other,Food taste and quality,20323,140213,0.1449
+Other,Rude staff and management (rude),16249,140213,0.1159
+Other,Slow service and long waits (table),13407,140213,0.0956
+Other,"Overpriced, small portions",12668,140213,0.0903
+Other,"Mixed: closed, room, open",10680,140213,0.0762
+Other,Slow service and long waits (minutes),9101,140213,0.0649
+Other,"Bar, noise and atmosphere",6718,140213,0.0479
+Other,Worst-ever experiences,6351,140213,0.0453
+Other,Rude staff and management (delivery),5442,140213,0.0388
+Other,Declining quality over time (location),4882,140213,0.0348
+Other,Wrong orders and takeout,2004,140213,0.0143
+Pizza,Rude staff and management (delivery),11914,58333,0.2042
+Pizza,Declining quality over time (menu),11463,58333,0.1965
+Pizza,Rude staff and management (rude),6743,58333,0.1156
+Pizza,Food taste and quality,5539,58333,0.095
+Pizza,Slow service and long waits (minutes),4885,58333,0.0837
+Pizza,Slow service and long waits (table),4047,58333,0.0694
+Pizza,"Overpriced, small portions",3661,58333,0.0628
+Pizza,Worst-ever experiences,3176,58333,0.0544
+Pizza,"Bar, noise and atmosphere",2543,58333,0.0436
+Pizza,Declining quality over time (location),2367,58333,0.0406
+Pizza,"Mixed: closed, room, open",1542,58333,0.0264
+Pizza,Wrong orders and takeout,453,58333,0.0078
+Seafood,Slow service and long waits (table),19009,92383,0.2058
+Seafood,Declining quality over time (menu),16568,92383,0.1793
+Seafood,Food taste and quality,14658,92383,0.1587
+Seafood,"Overpriced, small portions",9907,92383,0.1072
+Seafood,Slow service and long waits (minutes),8420,92383,0.0911
+Seafood,Rude staff and management (rude),6317,92383,0.0684
+Seafood,"Bar, noise and atmosphere",6295,92383,0.0681
+Seafood,Worst-ever experiences,3960,92383,0.0429
+Seafood,Declining quality over time (location),2479,92383,0.0268
+Seafood,Rude staff and management (delivery),2155,92383,0.0233
+Seafood,"Mixed: closed, room, open",2101,92383,0.0227
+Seafood,Wrong orders and takeout,514,92383,0.0056
+Thai,Food taste and quality,4603,17635,0.261
+Thai,Declining quality over time (menu),3576,17635,0.2028
+Thai,Slow service and long waits (table),1992,17635,0.113
+Thai,"Overpriced, small portions",1736,17635,0.0984
+Thai,Rude staff and management (delivery),1328,17635,0.0753
+Thai,Slow service and long waits (minutes),1226,17635,0.0695
+Thai,Rude staff and management (rude),1220,17635,0.0692
+Thai,Worst-ever experiences,1033,17635,0.0586
+Thai,"Mixed: closed, room, open",398,17635,0.0226
+Thai,Declining quality over time (location),241,17635,0.0137
+Thai,"Bar, noise and atmosphere",163,17635,0.0092
+Thai,Wrong orders and takeout,119,17635,0.0067

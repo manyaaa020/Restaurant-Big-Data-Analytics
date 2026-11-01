@@ -1,0 +1,4 @@
+streamlit==1.66.0
+pymongo==4.19.0
+pandas==3.0.6
+altair==6.3.0

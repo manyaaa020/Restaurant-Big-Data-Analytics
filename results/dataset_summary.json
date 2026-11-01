@@ -1,0 +1,14 @@
+{
+  "raw_businesses": 150346,
+  "raw_reviews": 6990280,
+  "restaurants": 52268,
+  "restaurant_reviews": 4724471,
+  "negative_reviews": 971671,
+  "users": 1445990,
+  "first_year": 2005,
+  "last_year": 2022,
+  "input_partitions": 40,
+  "trend_first_year": 2016,
+  "trend_last_year": 2021,
+  "cutoff_year": 2021
+}

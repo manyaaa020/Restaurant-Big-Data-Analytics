@@ -1,0 +1,62 @@
+Configured Capacity: 2162202353664 (1.97 TB)
+Present Capacity: 2008561973044 (1.83 TB)
+DFS Remaining: 1997047042048 (1.82 TB)
+DFS Used: 11514930996 (10.72 GB)
+DFS Used%: 0.57%
+Replicated Blocks:
+	Under replicated blocks: 0
+	Blocks with corrupt replicas: 0
+	Missing blocks: 0
+	Missing blocks (with replication factor 1): 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+Erasure Coded Block Groups: 
+	Low redundancy block groups: 0
+	Block groups with corrupt internal blocks: 0
+	Missing block groups: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+
+-------------------------------------------------
+Live datanodes (2):
+
+Name: 172.21.0.5:9866 (datanode1.bdaproj_default)
+Hostname: datanode1
+Decommission Status : Normal
+Configured Capacity: 1081101176832 (1006.85 GB)
+DFS Used: 5648474404 (5.26 GB)
+Non DFS Used: 21827829468 (20.33 GB)
+DFS Remaining: 998632517632 (930.05 GB)
+DFS Used%: 0.52%
+DFS Remaining%: 92.37%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Thu Oct 22 14:26:43 UTC 2026
+Last Block Report: Thu Oct 22 14:20:19 UTC 2026
+Num of Blocks: 47
+
+
+Name: 172.21.0.6:9866 (datanode2.bdaproj_default)
+Hostname: datanode2
+Decommission Status : Normal
+Configured Capacity: 1081101176832 (1006.85 GB)
+DFS Used: 5866456592 (5.46 GB)
+Non DFS Used: 21827840496 (20.33 GB)
+DFS Remaining: 998414524416 (929.85 GB)
+DFS Used%: 0.54%
+DFS Remaining%: 92.35%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 1
+Last contact: Thu Oct 22 14:26:43 UTC 2026
+Last Block Report: Thu Oct 22 14:20:19 UTC 2026
+Num of Blocks: 47
+
+

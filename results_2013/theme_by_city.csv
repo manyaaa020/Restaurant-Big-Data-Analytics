@@ -1,0 +1,81 @@
+city,theme,count,total,share
+Chandler,Declining quality over time,449,1832,0.2451
+Chandler,Food taste and quality,431,1832,0.2353
+Chandler,Slow service and long waits,262,1832,0.143
+Chandler,"Overpriced, small portions",231,1832,0.1261
+Chandler,Rude staff and management,163,1832,0.089
+Chandler,Nothing special,123,1832,0.0671
+Chandler,"Bar, noise and atmosphere",113,1832,0.0617
+Chandler,Happy hour,60,1832,0.0328
+Gilbert,Declining quality over time,156,664,0.2349
+Gilbert,Food taste and quality,155,664,0.2334
+Gilbert,Slow service and long waits,102,664,0.1536
+Gilbert,Rude staff and management,73,664,0.1099
+Gilbert,"Overpriced, small portions",67,664,0.1009
+Gilbert,"Bar, noise and atmosphere",42,664,0.0633
+Gilbert,Nothing special,36,664,0.0542
+Gilbert,Happy hour,33,664,0.0497
+Glendale,Food taste and quality,222,926,0.2397
+Glendale,Declining quality over time,200,926,0.216
+Glendale,Slow service and long waits,138,926,0.149
+Glendale,"Overpriced, small portions",99,926,0.1069
+Glendale,Rude staff and management,95,926,0.1026
+Glendale,Nothing special,74,926,0.0799
+Glendale,"Bar, noise and atmosphere",66,926,0.0713
+Glendale,Happy hour,32,926,0.0346
+Goodyear,Slow service and long waits,41,158,0.2595
+Goodyear,Food taste and quality,38,158,0.2405
+Goodyear,Declining quality over time,29,158,0.1835
+Goodyear,Rude staff and management,14,158,0.0886
+Goodyear,Nothing special,11,158,0.0696
+Goodyear,"Overpriced, small portions",10,158,0.0633
+Goodyear,Happy hour,8,158,0.0506
+Goodyear,"Bar, noise and atmosphere",7,158,0.0443
+Mesa,Declining quality over time,308,1121,0.2748
+Mesa,Food taste and quality,251,1121,0.2239
+Mesa,Slow service and long waits,176,1121,0.157
+Mesa,Rude staff and management,113,1121,0.1008
+Mesa,"Overpriced, small portions",99,1121,0.0883
+Mesa,Nothing special,72,1121,0.0642
+Mesa,"Bar, noise and atmosphere",66,1121,0.0589
+Mesa,Happy hour,36,1121,0.0321
+Peoria,Declining quality over time,97,358,0.2709
+Peoria,Slow service and long waits,74,358,0.2067
+Peoria,Food taste and quality,62,358,0.1732
+Peoria,Rude staff and management,46,358,0.1285
+Peoria,"Overpriced, small portions",35,358,0.0978
+Peoria,"Bar, noise and atmosphere",23,358,0.0642
+Peoria,Nothing special,14,358,0.0391
+Peoria,Happy hour,7,358,0.0196
+Phoenix,Food taste and quality,2512,10269,0.2446
+Phoenix,Declining quality over time,2252,10269,0.2193
+Phoenix,Slow service and long waits,1696,10269,0.1652
+Phoenix,"Overpriced, small portions",1113,10269,0.1084
+Phoenix,Rude staff and management,902,10269,0.0878
+Phoenix,"Bar, noise and atmosphere",847,10269,0.0825
+Phoenix,Nothing special,591,10269,0.0576
+Phoenix,Happy hour,356,10269,0.0347
+Scottsdale,Food taste and quality,1210,5763,0.21
+Scottsdale,Slow service and long waits,1156,5763,0.2006
+Scottsdale,Declining quality over time,966,5763,0.1676
+Scottsdale,"Overpriced, small portions",715,5763,0.1241
+Scottsdale,"Bar, noise and atmosphere",668,5763,0.1159
+Scottsdale,Rude staff and management,481,5763,0.0835
+Scottsdale,Happy hour,312,5763,0.0541
+Scottsdale,Nothing special,255,5763,0.0442
+Surprise,Declining quality over time,58,193,0.3005
+Surprise,Food taste and quality,44,193,0.228
+Surprise,Rude staff and management,29,193,0.1503
+Surprise,Slow service and long waits,21,193,0.1088
+Surprise,"Overpriced, small portions",17,193,0.0881
+Surprise,Nothing special,12,193,0.0622
+Surprise,"Bar, noise and atmosphere",7,193,0.0363
+Surprise,Happy hour,5,193,0.0259
+Tempe,Food taste and quality,762,3260,0.2337
+Tempe,Declining quality over time,744,3260,0.2282
+Tempe,Slow service and long waits,468,3260,0.1436
+Tempe,"Bar, noise and atmosphere",330,3260,0.1012
+Tempe,"Overpriced, small portions",321,3260,0.0985
+Tempe,Rude staff and management,287,3260,0.088
+Tempe,Nothing special,192,3260,0.0589
+Tempe,Happy hour,156,3260,0.0479

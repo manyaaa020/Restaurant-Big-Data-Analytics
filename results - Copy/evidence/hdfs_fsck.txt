@@ -1,0 +1,80 @@
+FSCK started by root (auth:SIMPLE) from /172.21.0.2 for path /tastetrends/raw/review/yelp_academic_dataset_review.json at Thu Oct 22 14:26:42 UTC 2026
+/tastetrends/raw/review/yelp_academic_dataset_review.json 5341868833 bytes, replicated: replication=2, 40 block(s):  OK
+0. BP-477740553-172.21.0.3-1792652347951:blk_1073741844_1020 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+1. BP-477740553-172.21.0.3-1792652347951:blk_1073741845_1021 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+2. BP-477740553-172.21.0.3-1792652347951:blk_1073741846_1022 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+3. BP-477740553-172.21.0.3-1792652347951:blk_1073741847_1023 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+4. BP-477740553-172.21.0.3-1792652347951:blk_1073741848_1024 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+5. BP-477740553-172.21.0.3-1792652347951:blk_1073741849_1025 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+6. BP-477740553-172.21.0.3-1792652347951:blk_1073741850_1026 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+7. BP-477740553-172.21.0.3-1792652347951:blk_1073741851_1027 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+8. BP-477740553-172.21.0.3-1792652347951:blk_1073741852_1028 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+9. BP-477740553-172.21.0.3-1792652347951:blk_1073741853_1029 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+10. BP-477740553-172.21.0.3-1792652347951:blk_1073741854_1030 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+11. BP-477740553-172.21.0.3-1792652347951:blk_1073741855_1031 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+12. BP-477740553-172.21.0.3-1792652347951:blk_1073741856_1032 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+13. BP-477740553-172.21.0.3-1792652347951:blk_1073741857_1033 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+14. BP-477740553-172.21.0.3-1792652347951:blk_1073741858_1034 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+15. BP-477740553-172.21.0.3-1792652347951:blk_1073741859_1035 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+16. BP-477740553-172.21.0.3-1792652347951:blk_1073741860_1036 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+17. BP-477740553-172.21.0.3-1792652347951:blk_1073741861_1037 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+18. BP-477740553-172.21.0.3-1792652347951:blk_1073741862_1038 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+19. BP-477740553-172.21.0.3-1792652347951:blk_1073741863_1039 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+20. BP-477740553-172.21.0.3-1792652347951:blk_1073741864_1040 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+21. BP-477740553-172.21.0.3-1792652347951:blk_1073741865_1041 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+22. BP-477740553-172.21.0.3-1792652347951:blk_1073741866_1042 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+23. BP-477740553-172.21.0.3-1792652347951:blk_1073741867_1043 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+24. BP-477740553-172.21.0.3-1792652347951:blk_1073741868_1044 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+25. BP-477740553-172.21.0.3-1792652347951:blk_1073741869_1045 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+26. BP-477740553-172.21.0.3-1792652347951:blk_1073741870_1046 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+27. BP-477740553-172.21.0.3-1792652347951:blk_1073741871_1047 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+28. BP-477740553-172.21.0.3-1792652347951:blk_1073741872_1048 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+29. BP-477740553-172.21.0.3-1792652347951:blk_1073741873_1049 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+30. BP-477740553-172.21.0.3-1792652347951:blk_1073741874_1050 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+31. BP-477740553-172.21.0.3-1792652347951:blk_1073741875_1051 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+32. BP-477740553-172.21.0.3-1792652347951:blk_1073741876_1052 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+33. BP-477740553-172.21.0.3-1792652347951:blk_1073741877_1053 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+34. BP-477740553-172.21.0.3-1792652347951:blk_1073741878_1054 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+35. BP-477740553-172.21.0.3-1792652347951:blk_1073741879_1055 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+36. BP-477740553-172.21.0.3-1792652347951:blk_1073741880_1056 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+37. BP-477740553-172.21.0.3-1792652347951:blk_1073741881_1057 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+38. BP-477740553-172.21.0.3-1792652347951:blk_1073741882_1058 len=134217728 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK], DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK]]
+39. BP-477740553-172.21.0.3-1792652347951:blk_1073741883_1059 len=107377441 Live_repl=2  [DatanodeInfoWithStorage[172.21.0.6:9866,DS-35a8b98e-9d9a-4143-a94e-8d39b9d47bdf,DISK], DatanodeInfoWithStorage[172.21.0.5:9866,DS-af1cf853-03ee-42a4-9ded-da48c1d5859d,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	2
+ Number of racks:		1
+ Total dirs:			0
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	5341868833 B
+ Total files:	1
+ Total blocks (validated):	40 (avg. block size 133546720 B)
+ Minimally replicated blocks:	40 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	2
+ Average block replication:	2.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+FSCK ended at Thu Oct 22 14:26:42 UTC 2026 in 11 milliseconds
+
+
+The filesystem under path '/tastetrends/raw/review/yelp_academic_dataset_review.json' is HEALTHY

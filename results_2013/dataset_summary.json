@@ -1,0 +1,14 @@
+{
+  "raw_businesses": 11537,
+  "raw_reviews": 229907,
+  "restaurants": 4503,
+  "restaurant_reviews": 158430,
+  "negative_reviews": 26305,
+  "users": 36473,
+  "first_year": 2005,
+  "last_year": 2013,
+  "input_partitions": 4,
+  "trend_first_year": 2007,
+  "trend_last_year": 2012,
+  "cutoff_year": 2012
+}

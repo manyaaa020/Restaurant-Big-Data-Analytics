@@ -1,0 +1,62 @@
+city,cuisine,n_reviews,avg_stars,rnk
+Chandler,Mediterranean,304,3.914,1
+Chandler,Japanese,404,3.842,2
+Chandler,Thai,499,3.745,3
+Chandler,Chinese,1531,3.707,4
+Chandler,Burgers,763,3.705,5
+Chandler,American,1597,3.686,6
+Chandler,Pizza,570,3.681,7
+Chandler,Mexican,965,3.642,8
+Chandler,Italian,549,3.528,9
+Chandler,Breakfast & Brunch,300,3.46,10
+Gilbert,Italian,460,3.948,1
+Gilbert,Breakfast & Brunch,392,3.941,2
+Gilbert,American,1545,3.921,3
+Gilbert,Mexican,467,3.456,4
+Glendale,Italian,465,3.731,1
+Glendale,American,754,3.43,2
+Glendale,Mexican,557,3.323,3
+Mesa,Thai,344,3.956,1
+Mesa,Breakfast & Brunch,470,3.791,2
+Mesa,Chinese,373,3.78,3
+Mesa,Mexican,1114,3.688,4
+Mesa,Burgers,375,3.624,5
+Mesa,American,700,3.549,6
+Mesa,Pizza,405,3.464,7
+Phoenix,Italian,5947,4.018,1
+Phoenix,Mediterranean,2811,3.932,2
+Phoenix,Breakfast & Brunch,5292,3.856,3
+Phoenix,Seafood,1201,3.817,4
+Phoenix,Mexican,9749,3.772,5
+Phoenix,Pizza,3531,3.733,6
+Phoenix,Thai,1183,3.724,7
+Phoenix,American,13719,3.722,8
+Phoenix,Japanese,2177,3.701,9
+Phoenix,Burgers,3760,3.695,10
+Phoenix,Indian,551,3.577,11
+Phoenix,Chinese,2649,3.472,12
+Phoenix,Fast Food,724,3.276,13
+Scottsdale,Italian,3076,3.857,1
+Scottsdale,Pizza,2124,3.843,2
+Scottsdale,Seafood,1108,3.814,3
+Scottsdale,American,9180,3.8,4
+Scottsdale,Thai,832,3.786,5
+Scottsdale,Mediterranean,435,3.782,6
+Scottsdale,Japanese,1739,3.772,7
+Scottsdale,Breakfast & Brunch,3362,3.76,8
+Scottsdale,Indian,304,3.674,9
+Scottsdale,Burgers,1371,3.613,10
+Scottsdale,Chinese,964,3.574,11
+Scottsdale,Mexican,3913,3.44,12
+Tempe,Breakfast & Brunch,414,3.949,1
+Tempe,Italian,825,3.922,2
+Tempe,Thai,836,3.837,3
+Tempe,Mediterranean,536,3.812,4
+Tempe,Indian,406,3.773,5
+Tempe,American,2838,3.652,6
+Tempe,Pizza,1262,3.601,7
+Tempe,Burgers,1684,3.586,8
+Tempe,Seafood,536,3.53,9
+Tempe,Mexican,1807,3.336,10
+Tempe,Japanese,710,3.323,11
+Tempe,Chinese,524,3.296,12

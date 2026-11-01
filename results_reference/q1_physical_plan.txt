@@ -1,0 +1,15 @@
+AdaptiveSparkPlan isFinalPlan=false
++- TakeOrderedAndProject(limit=15, orderBy=[n_reviews#47L DESC NULLS LAST,city#2 ASC NULLS FIRST], output=[city#2,restaurants#46L,n_reviews#47L,avg_stars#48,neg_share#49])
+   +- HashAggregate(keys=[city#2], functions=[count(1), avg(stars#20), sum(CASE WHEN (stars#20 <= 2) THEN 1 ELSE 0 END), count(distinct business_id#0)], output=[city#2, restaurants#46L, n_reviews#47L, avg_stars#48, neg_share#49])
+      +- Exchange hashpartitioning(city#2, 8), ENSURE_REQUIREMENTS, [plan_id=62]
+         +- HashAggregate(keys=[city#2], functions=[merge_count(1), merge_avg(stars#20), merge_sum(CASE WHEN (stars#20 <= 2) THEN 1 ELSE 0 END), partial_count(distinct business_id#0)], output=[city#2, count#61L, sum#64, count#65L, sum#67L, count#70L])
+            +- HashAggregate(keys=[city#2, business_id#0], functions=[merge_count(1), merge_avg(stars#20), merge_sum(CASE WHEN (stars#20 <= 2) THEN 1 ELSE 0 END)], output=[city#2, business_id#0, count#61L, sum#64, count#65L, sum#67L])
+               +- Exchange hashpartitioning(city#2, business_id#0, 8), ENSURE_REQUIREMENTS, [plan_id=58]
+                  +- HashAggregate(keys=[city#2, business_id#0], functions=[partial_count(1), partial_avg(stars#20), partial_sum(CASE WHEN (stars#20 <= 2) THEN 1 ELSE 0 END)], output=[city#2, business_id#0, count#61L, sum#64, count#65L, sum#67L])
+                     +- Project [stars#20, business_id#0, city#2]
+                        +- BroadcastHashJoin [business_id#16], [business_id#0], Inner, BuildRight, false
+                           :- Filter isnotnull(business_id#16)
+                           :  +- FileScan parquet [business_id#16,stars#20] Batched: true, DataFilters: [isnotnull(business_id#16)], Format: Parquet, Location: InMemoryFileIndex(1 paths)[file:/home/claude/data/tastetrends/clean/reviews], PartitionFilters: [], PushedFilters: [IsNotNull(business_id)], ReadSchema: struct<business_id:string,stars:int>
+                           +- BroadcastExchange HashedRelationBroadcastMode(List(input[0, string, false]),false), [plan_id=53]
+                              +- Filter isnotnull(business_id#0)
+                                 +- FileScan parquet [business_id#0,city#2] Batched: true, DataFilters: [isnotnull(business_id#0)], Format: Parquet, Location: InMemoryFileIndex(1 paths)[file:/home/claude/data/tastetrends/clean/restaurants], PartitionFilters: [], PushedFilters: [IsNotNull(business_id)], ReadSchema: struct<business_id:string,city:string>

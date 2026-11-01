@@ -1,0 +1,51 @@
+
+=== 1. Text search: 'cold food waited' (top 5 by relevance)
+db.reviews.find({$text: {$search: "cold food waited"}}).sort({score: {$meta: "textScore"}}).limit(5)
+
+  {"name": "Koto Steakhouse & Sushi Bar", "stars": 1, "score": 9.61, "text": "Ridiculously bad!  My daughter and I went to Koto tonight.  Horrible service, cold, mediocre food.  Other than..."}
+  {"name": "Two Chicks", "stars": 2, "score": 9.58, "text": "What the filthy bum clot?  I was so excited to try this place as soon as it opened, but was surprisingly and u..."}
+  {"name": "Ford's Garage", "stars": 1, "score": 9.44, "text": "Tried the one in Brandon when originally opened, it was my husbands birthday and we waited 2 hours to be seate..."}
+  {"name": "Spiro's Restaurant", "stars": 1, "score": 9.39, "text": "Okay so I bragged to my husband how much he missed a wonderful dinner we had here last time. My mouth was wate..."}
+  {"name": "HORN'S EATERY", "stars": 1, "score": 9.37, "text": "Stopped here for a relaxing breakfast on September 26, 2021. Identifying the hostess was difficult but once sh..."}
+
+=== 2. Text search + filters: 'rude manager' in negative Mexican reviews (16686 matches)
+db.reviews.find({$text: {$search: "rude manager"}, cuisine: "Mexican", sentiment: "negative"})
+
+  {"name": "Rosalita's Cantina", "city": "Des Peres", "year": 2021, "text": "I have loved Rosalita's for their margaritas, queso, guac, etc. People have complained to me about issues at R..."}
+  {"name": "Sonoran Delights", "city": "Tucson", "year": 2018, "text": "Came to the restaurant for lunch and purchased a churros locos, Sonoran hot dog and lemonade. He churros loco ..."}
+  {"name": "Punch Bowl Social Indianapolis", "city": "Indianapolis", "year": 2017, "text": "What happened Punch Bowl?   Where are your exceptional Chefs?  Your friendly managers, in fact where are the e..."}
+
+=== 3. Aggregation: complaint themes in Fast Food reviews
+db.reviews.aggregate([{$match: {cuisine: "Fast Food", theme: {$exists: true}}}, {$group: {_id: "$theme", reviews: {$sum: 1}}}, {$sort: {reviews: -1}}])
+
+  {"_id": "Rude staff and management (rude)", "reviews": 4059}
+  {"_id": "Declining quality over time (menu)", "reviews": 4034}
+  {"_id": "Wrong orders and takeout", "reviews": 3355}
+  {"_id": "Declining quality over time (location)", "reviews": 2695}
+  {"_id": "Rude staff and management (delivery)", "reviews": 1680}
+  {"_id": "Slow service and long waits (minutes)", "reviews": 1617}
+  {"_id": "Food taste and quality", "reviews": 1572}
+  {"_id": "Worst-ever experiences", "reviews": 1341}
+  {"_id": "Overpriced, small portions", "reviews": 1030}
+  {"_id": "Mixed: closed, room, open", "reviews": 835}
+  {"_id": "Slow service and long waits (table)", "reviews": 414}
+  {"_id": "Bar, noise and atmosphere", "reviews": 94}
+
+=== 4. Aggregation: restaurants with the most 'Slow service and long waits' reviews
+db.reviews.aggregate([{$match: {theme: "Slow service and long waits"}}, {$group: {_id: {name: "$name", city: "$city"}, complaints: {$sum: 1}}}, {$sort: {complaints: -1}}, {$limit: 5}])
+
+
+=== 5. Keyword tags: negative reviews tagged 'dirty', by city
+db.reviews.aggregate([{$match: {keywords: "dirty"}}, {$group: {_id: "$city", reviews: {$sum: 1}}}, {$sort: {reviews: -1}}, {$limit: 5}])
+
+  {"_id": "Philadelphia", "reviews": 399}
+  {"_id": "Tucson", "reviews": 315}
+  {"_id": "Tampa", "reviews": 314}
+  {"_id": "New Orleans", "reviews": 313}
+  {"_id": "Nashville", "reviews": 287}
+
+=== 6. Index use (explain)
+db.reviews.find({theme: 'Happy hour', cuisine: 'American'}).explain()  and  $text query .explain()
+
+  {"theme + cuisine filter": "FETCH <- IXSCAN(theme_cuisine)"}
+  {"text search": "TEXT_MATCH(review_text_search) <- FETCH <- OR <- IXSCAN(review_text_search)"}

@@ -1,0 +1,13 @@
+theme_id,theme,n_reviews,share,top_terms,matched_words
+8,Declining quality over time (menu),198193,0.2052,"menu, eat, bad, last, first, try, much, used, going, new, think, well","last, used, new, times"
+9,Slow service and long waits (table),132321,0.137,"table, server, waitress, asked, took, minutes, waiter, service, never, manager, check, brought","table, server, waitress, took, minutes, waiter, seated"
+11,Food taste and quality,128872,0.1334,"flavor, tasted, bland, taste, dry, cooked, disappointed, much, fresh, sweet, salty, cold","flavor, tasted, bland, taste, dry, fresh, sweet, salty, cold"
+0,Rude staff and management (rude),93766,0.0971,"rude, customer, service, horrible, staff, customers, employees, manager, owner, terrible, never, people","rude, customer, customers, manager, owner, attitude"
+6,"Overpriced, small portions",84216,0.0872,"price, quality, overpriced, small, prices, average, worth, portions, mediocre, service, expensive, high","price, quality, overpriced, small, prices, worth, portions, mediocre, expensive, high"
+2,Slow service and long waits (minutes),82632,0.0856,"minutes, wait, waited, hour, waiting, took, service, long, seated, told, another, min","minutes, wait, waited, waiting, took, seated, finally"
+4,Rude staff and management (delivery),52092,0.0539,"delivery, called, phone, call, told, driver, online, never, hour, delivered, card, manager","called, phone, told, manager"
+5,"Bar, noise and atmosphere",51441,0.0533,"bar, bartender, service, sat, bartenders, night, people, minutes, asked, staff, area, never","bar, bartender, night"
+3,Worst-ever experiences,47480,0.0492,"worst, ever, service, never, experience, bad, horrible, life, eat, terrible, cold, tasted","worst, ever, horrible, terrible, money, disgusting"
+10,Declining quality over time (location),36360,0.0377,"location, service, always, times, never, staff, love, locations, going, last, bad, every","location, always, times, love, last, new"
+7,"Mixed: closed, room, open",34116,0.0353,"closed, room, open, hotel, door, hours, stay, close, sign, rooms, night, desk",
+1,Wrong orders and takeout,24236,0.0251,"drive, thru, window, minutes, line, cars, location, car, wait, mcdonald, inside, fast","drive, window, wrong"

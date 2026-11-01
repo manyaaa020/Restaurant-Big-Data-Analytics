@@ -1,0 +1,121 @@
+city,theme,count,total,share
+Boise,Declining quality over time (menu),2970,13534,0.2194
+Boise,Food taste and quality,1925,13534,0.1422
+Boise,Slow service and long waits (table),1814,13534,0.134
+Boise,Rude staff and management (rude),1283,13534,0.0948
+Boise,"Overpriced, small portions",1187,13534,0.0877
+Boise,Slow service and long waits (minutes),1153,13534,0.0852
+Boise,Worst-ever experiences,665,13534,0.0491
+Boise,"Bar, noise and atmosphere",608,13534,0.0449
+Boise,Declining quality over time (location),588,13534,0.0434
+Boise,Rude staff and management (delivery),552,13534,0.0408
+Boise,Wrong orders and takeout,422,13534,0.0312
+Boise,"Mixed: closed, room, open",367,13534,0.0271
+Indianapolis,Declining quality over time (menu),8730,45317,0.1926
+Indianapolis,Slow service and long waits (table),6526,45317,0.144
+Indianapolis,Food taste and quality,5343,45317,0.1179
+Indianapolis,Slow service and long waits (minutes),4243,45317,0.0936
+Indianapolis,Rude staff and management (rude),4239,45317,0.0935
+Indianapolis,"Overpriced, small portions",3535,45317,0.078
+Indianapolis,Rude staff and management (delivery),2601,45317,0.0574
+Indianapolis,Declining quality over time (location),2378,45317,0.0525
+Indianapolis,"Bar, noise and atmosphere",2319,45317,0.0512
+Indianapolis,Worst-ever experiences,2062,45317,0.0455
+Indianapolis,Wrong orders and takeout,1753,45317,0.0387
+Indianapolis,"Mixed: closed, room, open",1588,45317,0.035
+Nashville,Declining quality over time (menu),11609,60911,0.1906
+Nashville,Slow service and long waits (table),8169,60911,0.1341
+Nashville,Food taste and quality,8164,60911,0.134
+Nashville,Slow service and long waits (minutes),6003,60911,0.0986
+Nashville,"Overpriced, small portions",5421,60911,0.089
+Nashville,Rude staff and management (rude),5344,60911,0.0877
+Nashville,"Bar, noise and atmosphere",4609,60911,0.0757
+Nashville,Worst-ever experiences,3125,60911,0.0513
+Nashville,Rude staff and management (delivery),2668,60911,0.0438
+Nashville,"Mixed: closed, room, open",2505,60911,0.0411
+Nashville,Declining quality over time (location),2074,60911,0.034
+Nashville,Wrong orders and takeout,1220,60911,0.02
+New Orleans,Declining quality over time (menu),14927,77450,0.1927
+New Orleans,Slow service and long waits (table),12643,77450,0.1632
+New Orleans,Food taste and quality,11567,77450,0.1493
+New Orleans,"Overpriced, small portions",7473,77450,0.0965
+New Orleans,Slow service and long waits (minutes),7085,77450,0.0915
+New Orleans,Rude staff and management (rude),6608,77450,0.0853
+New Orleans,"Bar, noise and atmosphere",5198,77450,0.0671
+New Orleans,Worst-ever experiences,3756,77450,0.0485
+New Orleans,"Mixed: closed, room, open",3496,77450,0.0451
+New Orleans,Rude staff and management (delivery),2439,77450,0.0315
+New Orleans,Declining quality over time (location),1789,77450,0.0231
+New Orleans,Wrong orders and takeout,469,77450,0.0061
+Philadelphia,Declining quality over time (menu),28935,123293,0.2347
+Philadelphia,Food taste and quality,17895,123293,0.1451
+Philadelphia,Slow service and long waits (table),14745,123293,0.1196
+Philadelphia,"Overpriced, small portions",11916,123293,0.0966
+Philadelphia,Rude staff and management (rude),11590,123293,0.094
+Philadelphia,Rude staff and management (delivery),9032,123293,0.0733
+Philadelphia,Slow service and long waits (minutes),8196,123293,0.0665
+Philadelphia,"Bar, noise and atmosphere",8052,123293,0.0653
+Philadelphia,Worst-ever experiences,5712,123293,0.0463
+Philadelphia,"Mixed: closed, room, open",3477,123293,0.0282
+Philadelphia,Declining quality over time (location),2832,123293,0.023
+Philadelphia,Wrong orders and takeout,911,123293,0.0074
+Reno,Declining quality over time (menu),9196,43500,0.2114
+Reno,Slow service and long waits (table),5549,43500,0.1276
+Reno,Food taste and quality,5394,43500,0.124
+Reno,Rude staff and management (rude),4743,43500,0.109
+Reno,Slow service and long waits (minutes),3750,43500,0.0862
+Reno,"Overpriced, small portions",3426,43500,0.0788
+Reno,"Mixed: closed, room, open",2862,43500,0.0658
+Reno,Worst-ever experiences,2257,43500,0.0519
+Reno,Rude staff and management (delivery),1850,43500,0.0425
+Reno,"Bar, noise and atmosphere",1654,43500,0.038
+Reno,Wrong orders and takeout,1448,43500,0.0333
+Reno,Declining quality over time (location),1371,43500,0.0315
+Saint Louis,Declining quality over time (menu),7100,32719,0.217
+Saint Louis,Slow service and long waits (table),4591,32719,0.1403
+Saint Louis,Food taste and quality,4484,32719,0.137
+Saint Louis,Slow service and long waits (minutes),2869,32719,0.0877
+Saint Louis,"Overpriced, small portions",2773,32719,0.0848
+Saint Louis,Rude staff and management (rude),2749,32719,0.084
+Saint Louis,"Bar, noise and atmosphere",2172,32719,0.0664
+Saint Louis,Rude staff and management (delivery),1608,32719,0.0491
+Saint Louis,Worst-ever experiences,1491,32719,0.0456
+Saint Louis,"Mixed: closed, room, open",1196,32719,0.0366
+Saint Louis,Declining quality over time (location),1010,32719,0.0309
+Saint Louis,Wrong orders and takeout,676,32719,0.0207
+Santa Barbara,Declining quality over time (menu),5341,27025,0.1976
+Santa Barbara,Slow service and long waits (table),4053,27025,0.15
+Santa Barbara,Food taste and quality,3998,27025,0.1479
+Santa Barbara,"Overpriced, small portions",2995,27025,0.1108
+Santa Barbara,Rude staff and management (rude),2665,27025,0.0986
+Santa Barbara,Slow service and long waits (minutes),2192,27025,0.0811
+Santa Barbara,"Mixed: closed, room, open",1493,27025,0.0552
+Santa Barbara,Worst-ever experiences,1235,27025,0.0457
+Santa Barbara,"Bar, noise and atmosphere",1130,27025,0.0418
+Santa Barbara,Rude staff and management (delivery),974,27025,0.036
+Santa Barbara,Declining quality over time (location),796,27025,0.0295
+Santa Barbara,Wrong orders and takeout,153,27025,0.0057
+Tampa,Declining quality over time (menu),11362,59149,0.1921
+Tampa,Slow service and long waits (table),8417,59149,0.1423
+Tampa,Food taste and quality,7684,59149,0.1299
+Tampa,Rude staff and management (rude),5883,59149,0.0995
+Tampa,Slow service and long waits (minutes),5200,59149,0.0879
+Tampa,"Overpriced, small portions",4885,59149,0.0826
+Tampa,"Bar, noise and atmosphere",3425,59149,0.0579
+Tampa,Rude staff and management (delivery),3046,59149,0.0515
+Tampa,Worst-ever experiences,3007,59149,0.0508
+Tampa,Declining quality over time (location),2622,59149,0.0443
+Tampa,"Mixed: closed, room, open",2040,59149,0.0345
+Tampa,Wrong orders and takeout,1578,59149,0.0267
+Tucson,Declining quality over time (menu),12116,55858,0.2169
+Tucson,Slow service and long waits (table),7553,55858,0.1352
+Tucson,Food taste and quality,7505,55858,0.1344
+Tucson,Rude staff and management (rude),5498,55858,0.0984
+Tucson,Slow service and long waits (minutes),4981,55858,0.0892
+Tucson,"Overpriced, small portions",4706,55858,0.0842
+Tucson,Worst-ever experiences,2573,55858,0.0461
+Tucson,"Bar, noise and atmosphere",2407,55858,0.0431
+Tucson,Rude staff and management (delivery),2404,55858,0.043
+Tucson,Declining quality over time (location),2314,55858,0.0414
+Tucson,"Mixed: closed, room, open",1927,55858,0.0345
+Tucson,Wrong orders and takeout,1874,55858,0.0335

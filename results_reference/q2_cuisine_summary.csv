@@ -1,0 +1,15 @@
+cuisine,restaurants,n_reviews,avg_stars,neg_share
+Italian,262,12304,3.92,0.137
+Mediterranean,82,4519,3.906,0.1182
+Breakfast & Brunch,179,10664,3.806,0.1527
+Thai,79,4160,3.803,0.1454
+Other,1261,37738,3.78,0.1564
+American,648,31932,3.737,0.1577
+Pizza,350,9076,3.702,0.1765
+Seafood,67,3201,3.698,0.1881
+Japanese,123,5868,3.68,0.1864
+Indian,39,1684,3.663,0.1776
+Burgers,251,8727,3.651,0.1799
+Mexican,629,19724,3.627,0.1932
+Chinese,283,7096,3.56,0.2042
+Fast Food,250,1737,3.322,0.2798

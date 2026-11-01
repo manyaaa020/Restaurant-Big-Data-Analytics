@@ -1,0 +1,3 @@
+Copy the two Yelp files into this folder with exactly these names:
+  yelp_academic_dataset_business.json
+  yelp_academic_dataset_review.json

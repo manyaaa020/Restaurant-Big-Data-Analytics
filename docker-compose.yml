@@ -1,0 +1,125 @@
+# TasteTrends - Spark big data pipeline (8 containers)
+#
+#   HDFS   : namenode + datanode1 + datanode2   (dataset stored in 128 MB blocks, 2 copies each)
+#   Spark  : spark-master + spark-worker-1 + spark-worker-2   (standalone cluster, 2 cores each)
+#   NoSQL  : mongodb                              (review documents, text index)
+#   UI     : dashboard                            (Streamlit, reads MongoDB)
+#
+# Start: docker compose up -d --build      Stop: docker compose down      (add -v to delete data)
+# Web UIs: HDFS http://localhost:9870 | Spark http://localhost:8080 | running job http://localhost:4040
+#          dashboard http://localhost:8501
+
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: namenode
+    hostname: namenode
+    environment:
+      - CLUSTER_NAME=tastetrends
+    env_file: ./hadoop.env
+    ports:
+      - "9870:9870"
+    volumes:
+      - namenode:/hadoop/dfs/name
+      - ./data:/data
+      - ./scripts:/scripts
+      - ./results:/results
+
+  datanode1:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode1
+    hostname: datanode1
+    environment:
+      SERVICE_PRECONDITION: "namenode:9870"
+    env_file: ./hadoop.env
+    volumes:
+      - datanode1:/hadoop/dfs/data
+    depends_on: [namenode]
+
+  datanode2:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode2
+    hostname: datanode2
+    environment:
+      SERVICE_PRECONDITION: "namenode:9870"
+    env_file: ./hadoop.env
+    volumes:
+      - datanode2:/hadoop/dfs/data
+    depends_on: [namenode]
+
+  spark-master:
+    build: ./docker/spark
+    image: tastetrends-spark:3.5.1
+    container_name: spark-master
+    hostname: spark-master
+    user: root
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.master.Master",
+              "--host", "spark-master", "--port", "7077", "--webui-port", "8080"]
+    environment:
+      - TT_DATA=hdfs://namenode:9000/tastetrends
+      - TT_RESULTS=/opt/results
+    ports:
+      - "8080:8080"
+      - "4040:4040"
+    volumes:
+      - ./jobs:/opt/jobs
+      - ./results:/opt/results
+    depends_on: [namenode]
+
+  spark-worker-1:
+    image: tastetrends-spark:3.5.1
+    container_name: spark-worker-1
+    hostname: spark-worker-1
+    user: root
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.worker.Worker",
+              "spark://spark-master:7077", "--cores", "2", "--memory", "1536m", "--webui-port", "8081"]
+    environment:
+      - TT_NODE_NAME=spark-worker-1
+    ports:
+      - "8081:8081"
+    volumes:
+      - ./jobs:/opt/jobs
+    depends_on: [spark-master]
+
+  spark-worker-2:
+    image: tastetrends-spark:3.5.1
+    container_name: spark-worker-2
+    hostname: spark-worker-2
+    user: root
+    command: ["/opt/spark/bin/spark-class", "org.apache.spark.deploy.worker.Worker",
+              "spark://spark-master:7077", "--cores", "2", "--memory", "1536m", "--webui-port", "8081"]
+    environment:
+      - TT_NODE_NAME=spark-worker-2
+    ports:
+      - "8082:8081"
+    volumes:
+      - ./jobs:/opt/jobs
+    depends_on: [spark-master]
+
+  mongodb:
+    image: mongo:7.0
+    container_name: mongodb
+    command: ["mongod", "--wiredTigerCacheSizeGB", "0.5"]
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo:/data/db
+
+  dashboard:
+    build: ./dashboard
+    container_name: dashboard
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017
+      - TT_RESULTS=/results
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./dashboard:/app
+      - ./results:/results
+    depends_on: [mongodb]
+
+volumes:
+  namenode:
+  datanode1:
+  datanode2:
+  mongo:

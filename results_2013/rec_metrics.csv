@@ -1,0 +1,4 @@
+method,test_users,hit_rate_at_10,precision_at_10,recall_at_10,coverage
+ALS implicit (reviews as visits),2210,0.1475,0.018,0.0293,0.1124
+ALS explicit (star ratings),2210,0.0131,0.0013,0.0019,0.2015
+Popularity baseline,2210,0.1439,0.019,0.0267,0.006

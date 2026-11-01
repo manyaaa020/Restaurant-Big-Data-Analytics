@@ -1,0 +1,52 @@
+
+=== 1. Text search: 'cold food waited' (top 5 by relevance)
+db.reviews.find({$text: {$search: "cold food waited"}}).sort({score: {$meta: "textScore"}}).limit(5)
+
+  {"name": "Pointe In Tyme", "stars": 1, "score": 9.05, "text": "I came here with a group of 12 on Saturday morning for breakfast. We all arrived at separate times and agreed ..."}
+  {"name": "Arcadia Farms Cafe", "stars": 1, "score": 9.04, "text": "I must of been here during some sort of kitchen meltdown. I say that only because of the very good reviews and..."}
+  {"name": "The Side Door Corner Store", "stars": 1, "score": 8.7, "text": "What is worse, the horrible service or the interminable wait for mediocre, cold food?  45 minutes for an appet..."}
+  {"name": "Two Hippies Magic Mushroom Burgers", "stars": 2, "score": 8.34, "text": "Just got back from this place about an hour ago and was so peeved that i couldn't wait to write this review. I..."}
+  {"name": "Mimi's Cafe", "stars": 2, "score": 8.23, "text": "Waitress (jen) was nice but we waited very long for the food. Food also not too tasty. Ordered the chicken cre..."}
+
+=== 2. Text search + filters: 'rude manager' in negative Mexican reviews (403 matches)
+db.reviews.find({$text: {$search: "rude manager"}, cuisine: "Mexican", sentiment: "negative"})
+
+  {"name": "Padre's Modern Mexican Cuisine", "city": "Phoenix", "year": 2011, "text": "I really love the food here. I have never had anything from the menu that I did not enjoy. However, I will nev..."}
+  {"name": "Spotted Donkey Cantina", "city": "Scottsdale", "year": 2012, "text": "My parents insisted on coming here last week, as they had eaten here in December and loved it. Of course, I Ye..."}
+  {"name": "TQLA", "city": "Mesa", "year": 2012, "text": "We were excited to check out this new restaurant! We were left extremely underwhelmed. We sat in the bar to wa..."}
+
+=== 3. Aggregation: complaint themes in Fast Food reviews
+db.reviews.aggregate([{$match: {cuisine: "Fast Food", theme: {$exists: true}}}, {$group: {_id: "$theme", reviews: {$sum: 1}}}, {$sort: {reviews: -1}}])
+
+  {"_id": "Declining quality over time", "reviews": 224}
+  {"_id": "Rude staff and management", "reviews": 104}
+  {"_id": "Food taste and quality", "reviews": 62}
+  {"_id": "Slow service and long waits", "reviews": 29}
+  {"_id": "Overpriced, small portions", "reviews": 23}
+  {"_id": "Happy hour", "reviews": 9}
+  {"_id": "Nothing special", "reviews": 9}
+  {"_id": "Bar, noise and atmosphere", "reviews": 3}
+
+=== 4. Aggregation: restaurants with the most 'Slow service and long waits' reviews
+db.reviews.aggregate([{$match: {theme: "Slow service and long waits"}}, {$group: {_id: {name: "$name", city: "$city"}, complaints: {$sum: 1}}}, {$sort: {complaints: -1}}, {$limit: 5}])
+
+  {"_id": {"name": "Over Easy", "city": "Phoenix"}, "complaints": 25}
+  {"_id": {"name": "Orange Table", "city": "Scottsdale"}, "complaints": 24}
+  {"_id": {"name": "Pizzeria Bianco", "city": "Phoenix"}, "complaints": 23}
+  {"_id": {"name": "Frank & Lupe's Old Mexico", "city": "Scottsdale"}, "complaints": 23}
+  {"_id": {"name": "Cadillac Ranch", "city": "Tempe"}, "complaints": 21}
+
+=== 5. Keyword tags: negative reviews tagged 'dirty', by city
+db.reviews.aggregate([{$match: {keywords: "dirty"}}, {$group: {_id: "$city", reviews: {$sum: 1}}}, {$sort: {reviews: -1}}, {$limit: 5}])
+
+  {"_id": "Phoenix", "reviews": 52}
+  {"_id": "Scottsdale", "reviews": 29}
+  {"_id": "Tempe", "reviews": 19}
+  {"_id": "Chandler", "reviews": 10}
+  {"_id": "Mesa", "reviews": 8}
+
+=== 6. Index use (explain)
+db.reviews.find({theme: 'Happy hour', cuisine: 'American'}).explain()  and  $text query .explain()
+
+  {"theme + cuisine filter": "FETCH <- IXSCAN(theme_cuisine)"}
+  {"text search": "TEXT_MATCH(review_text_search) <- FETCH <- OR <- IXSCAN(review_text_search)"}

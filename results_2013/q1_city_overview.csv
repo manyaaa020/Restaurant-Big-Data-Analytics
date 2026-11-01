@@ -1,0 +1,16 @@
+city,restaurants,n_reviews,avg_stars,neg_share
+Phoenix,1629,66518,3.766,0.159
+Scottsdale,702,36140,3.737,0.1646
+Tempe,458,19526,3.695,0.1715
+Chandler,356,10920,3.688,0.1733
+Mesa,352,6932,3.749,0.1691
+Glendale,249,5167,3.637,0.1887
+Gilbert,150,4464,3.81,0.1534
+Peoria,110,1758,3.559,0.2105
+Avondale,59,938,3.786,0.1525
+Surprise,60,848,3.488,0.2429
+Goodyear,49,754,3.603,0.2228
+Paradise Valley,22,724,3.841,0.1547
+Cave Creek,24,601,3.834,0.1681
+Queen Creek,24,475,3.994,0.12
+Fountain Hills,20,262,3.882,0.1489

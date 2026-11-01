@@ -1,0 +1,105 @@
+city,cuisine,n_reviews,avg_stars,rnk
+Indianapolis,Thai,6889,4.137,1
+Indianapolis,Mediterranean,5684,4.11,2
+Indianapolis,Indian,4071,4.096,3
+Indianapolis,Breakfast & Brunch,29362,3.994,4
+Indianapolis,Seafood,18809,3.938,5
+Indianapolis,Mexican,30511,3.921,6
+Indianapolis,Japanese,11091,3.88,7
+Indianapolis,American,41770,3.826,8
+Indianapolis,Italian,14199,3.753,9
+Indianapolis,Pizza,15787,3.717,10
+Indianapolis,Chinese,7619,3.657,11
+Indianapolis,Burgers,24636,3.458,12
+Indianapolis,Fast Food,4183,3.319,13
+Nashville,Indian,4481,4.144,1
+Nashville,Mediterranean,9016,4.065,2
+Nashville,Breakfast & Brunch,48223,3.965,3
+Nashville,Pizza,14998,3.96,4
+Nashville,Thai,6077,3.901,5
+Nashville,Seafood,19775,3.865,6
+Nashville,American,72152,3.86,7
+Nashville,Mexican,26362,3.792,8
+Nashville,Japanese,8490,3.726,9
+Nashville,Burgers,32711,3.72,10
+Nashville,Italian,19879,3.699,11
+Nashville,Chinese,5123,3.487,12
+Nashville,Fast Food,3315,3.146,13
+New Orleans,Mediterranean,8585,4.149,1
+New Orleans,Breakfast & Brunch,91459,4.034,2
+New Orleans,Seafood,135785,3.982,3
+New Orleans,American,54957,3.923,4
+New Orleans,Indian,1420,3.892,5
+New Orleans,Thai,3293,3.888,6
+New Orleans,Italian,22384,3.858,7
+New Orleans,Japanese,8542,3.828,8
+New Orleans,Mexican,18314,3.749,9
+New Orleans,Chinese,5399,3.735,10
+New Orleans,Pizza,8429,3.692,11
+New Orleans,Burgers,23914,3.657,12
+New Orleans,Fast Food,2306,3.365,13
+Philadelphia,Mediterranean,22154,4.03,1
+Philadelphia,Japanese,36171,3.93,2
+Philadelphia,Indian,14704,3.895,3
+Philadelphia,Breakfast & Brunch,91604,3.886,4
+Philadelphia,Thai,18232,3.865,5
+Philadelphia,Chinese,47481,3.855,6
+Philadelphia,Italian,79781,3.807,7
+Philadelphia,Mexican,41626,3.785,8
+Philadelphia,American,94765,3.765,9
+Philadelphia,Seafood,33135,3.693,10
+Philadelphia,Burgers,35270,3.545,11
+Philadelphia,Pizza,28635,3.485,12
+Philadelphia,Fast Food,4681,3.32,13
+Reno,Mediterranean,2411,4.148,1
+Reno,Thai,5070,4.044,2
+Reno,Indian,4136,4.036,3
+Reno,Breakfast & Brunch,25341,4.012,4
+Reno,American,21813,3.865,5
+Reno,Italian,13134,3.831,6
+Reno,Mexican,22642,3.783,7
+Reno,Seafood,10727,3.706,8
+Reno,Japanese,15207,3.701,9
+Reno,Pizza,12784,3.67,10
+Reno,Chinese,12040,3.561,11
+Reno,Burgers,15156,3.469,12
+Reno,Fast Food,2687,3.06,13
+Saint Louis,Mediterranean,5398,4.116,1
+Saint Louis,Indian,3291,4.079,2
+Saint Louis,Breakfast & Brunch,17081,3.95,3
+Saint Louis,Seafood,6527,3.915,4
+Saint Louis,Italian,20024,3.861,5
+Saint Louis,American,36794,3.841,6
+Saint Louis,Thai,3679,3.831,7
+Saint Louis,Pizza,12272,3.706,8
+Saint Louis,Japanese,6688,3.679,9
+Saint Louis,Chinese,8555,3.635,10
+Saint Louis,Mexican,11146,3.571,11
+Saint Louis,Burgers,12551,3.566,12
+Saint Louis,Fast Food,1532,3.349,13
+Tampa,Mediterranean,8417,4.021,1
+Tampa,Thai,7177,3.996,2
+Tampa,Indian,5211,3.984,3
+Tampa,Breakfast & Brunch,31463,3.967,4
+Tampa,Seafood,34547,3.849,5
+Tampa,American,48694,3.848,6
+Tampa,Japanese,15732,3.844,7
+Tampa,Italian,22755,3.838,8
+Tampa,Mexican,27027,3.789,9
+Tampa,Pizza,11732,3.788,10
+Tampa,Chinese,7951,3.667,11
+Tampa,Burgers,23663,3.523,12
+Tampa,Fast Food,4082,3.123,13
+Tucson,Indian,2824,4.041,1
+Tucson,Breakfast & Brunch,25005,3.94,2
+Tucson,Mediterranean,5855,3.883,3
+Tucson,Mexican,53028,3.789,4
+Tucson,Thai,4130,3.788,5
+Tucson,Italian,19720,3.758,6
+Tucson,Seafood,10030,3.698,7
+Tucson,Japanese,12795,3.678,8
+Tucson,Pizza,12225,3.66,9
+Tucson,American,29787,3.637,10
+Tucson,Chinese,10646,3.57,11
+Tucson,Burgers,22099,3.529,12
+Tucson,Fast Food,5404,3.243,13
